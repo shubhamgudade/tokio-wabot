@@ -34,7 +34,7 @@ let tags = {
 const defaultMenu = {
   before: `
 
-🙏🏻 Namaste %name, how can i help you?
+🙏🏻 *नमस्कार %name , मी तुमची कशी सहायता करू शकतो ?*
 
 🪵 Left: *%limit Limit*
 🎗️ Role: *%role*
@@ -51,7 +51,7 @@ const defaultMenu = {
   header: '        *━━❰･%category･❱━━*',
   body: ' 🌠 %cmd %islimit %isPremium',
   footer: ' ',
-  after: `🌟 *Hope you're enjoying bot, have a great day* 
+  after: `🌟 *आशा करतो आपण BOT चां वापर करून आनंद घेत असाल !* 
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
@@ -150,7 +150,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.send2ButtonImg(m.chat, thumb, `🏮 *I\'m SHUBHM WA/-BOT* `, text.trim(), 'owner', '-owner', 'rules', '.rules', m)
+    conn.send2ButtonImg(m.chat, thumb, `🏮 *मी SHUBHM WA/-BOT* `, text.trim(), 'owner', '-owner', 'rules', '.rules', m)
   } catch (e) {
     conn.reply(m.chat, 'Sorry, the menu is in error', m)
     throw e
