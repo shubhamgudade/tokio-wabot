@@ -1,0 +1,58 @@
+{
+  "users": {
+    "918421538920@s.whatsapp.net": {
+      "exp": 10,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "BOT 1",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "918999112489@s.whatsapp.net": {
+      "exp": 18,
+      "limit": 20,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "S",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    }
+  },
+  "chats": {
+    "120363038432627454@g.us": {
+      "isBanned": false,
+      "welcome": false,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiLink": false,
+      "viewonce": false
+    }
+  },
+  "stats": {
+    "menu.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1648199760733,
+      "lastSuccess": 1648199760733
+    }
+  },
+  "msgs": {},
+  "sticker": {}
+}
